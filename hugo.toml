@@ -1,0 +1,45 @@
+baseURL = 'https://tperversi.github.io/tomasperversi.github.io/'
+languageCode = 'en-gb'
+title = "Tomas A. Perversi"
+theme = "nightfall"
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "blog"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+user = "tom.perversi"
+hostname = "gmail.com"
+  [params.author]
+    name = "Tomas A. Perversi"  # Website and RSS feed author
+    email = "email@example.com"  # RSS feed email address
+
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "cv"
+url = "/2024_cv.pdf"
+target = "_blank"
+aria = "Curriculum Vitae"
+
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/tomasperversi/"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:tom.perversi@gmail.com"
+aria = "My e-Mail Address"
